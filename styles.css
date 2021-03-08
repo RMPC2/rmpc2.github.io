@@ -1,0 +1,53 @@
+body {
+    background-color: black;
+  }
+
+  h1 {
+    color: white;
+    text-align: center;
+  }
+  
+  h2 {
+    color: white;
+    text-align: left;
+  }
+  h3 {
+    color: white;
+    text-align: left;
+  }
+
+  p {
+    font-family: verdana;
+    font-size: 20px;
+    color: aliceblue;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #6c6e6c;
+  }
+
+
