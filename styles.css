@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    margin: 0;
   }
 
   h1 {
@@ -10,31 +11,36 @@ body {
   h2 {
     color: white;
     text-align: left;
+    margin: 1%;
   }
   h3 {
     color: white;
     text-align: left;
+    margin: 1%;
   }
 
   p {
     font-family: verdana;
     font-size: 20px;
     color: aliceblue;
+    margin: 1%;
   }
 
-  ul {
+  nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    display: flex;
+    justify-content: space-around;
   }
   
-  li {
+  nav li {
     float: left;
+
   }
   
-  li a {
+  nav li a {
     display: block;
     color: white;
     text-align: center;
@@ -42,7 +48,7 @@ body {
     text-decoration: none;
   }
   
-  li a:hover:not(.active) {
+  nav li a:hover:not(.active) {
     background-color: #111;
   }
   
@@ -51,3 +57,12 @@ body {
   }
 
 
+.container {
+  width: 100%;
+  margin: 0 auto;
+
+}
+
+header {
+  background-color: #333;
+}
