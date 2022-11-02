@@ -137,3 +137,8 @@ article a:active {
   background-color: transparent;
   text-decoration: underline;
 }
+
+.nav-active {
+  background-color: #6c6e6c;
+  font-weight: bold;
+}
