@@ -1,4 +1,3 @@
 # rmpstoolboxReact
 
-Link sharing website built in React
-changes made 
+Link sharing website built in HTML
